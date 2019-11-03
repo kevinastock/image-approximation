@@ -1,8 +1,9 @@
 Author: Kevin Stock
+Date: Jan 2012
 
 Description:
   Original idea from Roger Alsing's Weblog so that I could experiment
-  with various algorithms other than a vanilla stochastic hill climber
+  with various algorithms other than a stochastic hill climber.
 
   The idea is to take a set of random transparent triangles and adjust them
   so that the image created by the triagles approximates a given image.
@@ -13,7 +14,3 @@ Usage:
 
   s - output the current best iteration to the working directory
   q - quit
-
-Todo:
-  Eliminate useless triangles
-  Tune genetic algorithm
